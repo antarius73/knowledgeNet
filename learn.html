@@ -3,42 +3,50 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ce que je voudrai découvrire avec d'autre.</title>
+    <title>Ce que je voudrai découvrire avec d'autre - Les réseaux du savoir</title>
     <link rel="stylesheet" type="text/css" href="./style.css" />
 </head>
 <body>
     <header>
         <h1>Réseau du partage vivant hyperlocal</h1>
-        <aside>Une experience lowtech basé sur l'oeuvre de Ivan Ilitch</aside>
+        <p>Une experience lowtech basé sur l'oeuvre de Ivan Ilitch</p>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Page d'accueil.</a></li>
+                <li>Ce que je voudrai découvrire avec d'autre.</li>
+                <li><a href="./machine.html">Des outils ou machines misent en partage.</a></li>
+                <li><a href="./share.html">Ce que je connais et que je peux partager à d'autres.</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="./index.html">Page d'accueil.</a></li>
-            <li>Ce que je voudrai découvrire avec d'autre.</li>
-            <li><a href="./machine.html">Des outils ou machines misent en partage.</a></li>
-            <li><a href="./share.html">Ce que je connais et que je peux partager à d'autres.</a></li>
-        </ul>
-    </nav>
-    <h2>Ce que je voudrai découvrire avec d'autre.</h2>
-
-    <details>
-        <summary>Apprendre à dessiner</summary>
-        <p>J'ai commencé à apprendre le dessin par moi-même via des tutos web, mais je suis partant si certains veulent aussi monter cette compétence ! session commune, partage d'exercice...</p>
-        <aside>Antarius</aside>
-        <br>
-        <label><input type="checkbox" disabled checked>Apprendre de pair à pair</label><br>
-        <label><input type="checkbox" disabled checked>Apprendre avec un mentor</label>
-    </details>
-    <details>
-        <summary>Écriture de nouvelles</summary>
-        <p>Après quelque balbutiements en d'écriture, j'aimerai bien monté un groupe d'écriture de nouvelle genre SF/fantaisie/anticipation avec lecture, discutions, avis, conseilles...</p>
-        <aside>Antarius</aside>
-        <br>
-        <label><input type="checkbox" disabled checked>Apprendre de pair à pair</label><br>
-        <label><input type="checkbox" disabled >Apprendre avec un mentor</label>
-    </details>
-
-    <hr>
+    <main>
+        <h2>Ce que je voudrai découvrire avec d'autre.</h2>
+        <details>
+            <summary>Apprendre à dessiner</summary>
+            <section>
+                <article>
+                    <p>J'ai commencé à apprendre le dessin par moi-même via des tutos web, mais je suis partant si certains veulent aussi monter cette compétence ! session commune, partage d'exercice...</p>
+                    <cite>Antarius</cite>
+                </article>
+                <aside>
+                    <label><input type="checkbox" disabled checked>Apprendre de pair à pair</label>
+                    <label><input type="checkbox" disabled checked>Apprendre avec un mentor</label>
+                </aside>
+            </section>
+        </details>
+        <details>
+            <summary>Écriture de nouvelles</summary>
+            <section>
+                <article>
+                    <p>Après quelque balbutiements en d'écriture, j'aimerai bien monté un groupe d'écriture de nouvelle genre SF/fantaisie/anticipation avec lecture, discutions, avis, conseilles...</p>
+                    <cite>Antarius</cite>
+                </article>
+                <aside>
+                    <label><input type="checkbox" disabled checked>Apprendre de pair à pair</label>
+                    <label><input type="checkbox" disabled >Apprendre avec un mentor</label>
+                </aside>
+            </section>
+        </details>
+    </main>
 </body>
-
 </html>
