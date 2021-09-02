@@ -1,16 +1,61 @@
 body {
     margin: 40px auto;
-    max-width: 650px;
+    max-width: 1080px;
     line-height: 1.6;
-    font-size: 18px;
+    font-size: 1em;
     color: #444;
     padding: 0 10px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Helvetica, Times, serif;
 }
 
 h1,
 h2,
 h3 {
     line-height: 1.2;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Times New Roman', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+p, li, blockquote {
+    font-size: 1.1em;
+}
+
+nav {
+    padding: 10px 0px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+details {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+details summary {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+details section {
+    background: #F0F0F0;
+    padding: 10px 20px;
+}
+
+details section article {
+    margin-bottom: 20px;
+}
+
+details section aside label {
+    display: block;
 }
